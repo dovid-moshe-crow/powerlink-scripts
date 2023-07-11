@@ -15,7 +15,7 @@ app.post("/reset-bikoret-status", async (req, res) => {
     await sdk.getAllAccounts({
       objecttype: 1,
       fields: "accountid",
-      query: "pcfsystemfield298 = 1",
+      query: "pcfsystemfield608 = 1",
       sort_type: "asc",
       page_size: 500,
       page_number: 1,
